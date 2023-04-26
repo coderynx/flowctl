@@ -9,18 +9,18 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>flowctl</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
-  </PropertyGroup>
+    </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Cocona" Version="2.2.0" />
-      <PackageReference Include="Refit.HttpClientFactory" Version="6.3.2" />
-      <PackageReference Include="Spectre.Console" Version="0.46.0" />
+        <PackageReference Include="Cocona" Version="2.2.0"/>
+        <PackageReference Include="Refit.HttpClientFactory" Version="6.3.2"/>
+        <PackageReference Include="Spectre.Console" Version="0.46.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="appsettings.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 </Project>
