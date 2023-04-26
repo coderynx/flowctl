@@ -6,6 +6,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>flowctl</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup>
 
     <ItemGroup>
